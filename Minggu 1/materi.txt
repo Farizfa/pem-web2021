@@ -1,0 +1,1 @@
+Materi pada minggu 1 adalah menginstall web server dan membuat repository pada Github
