@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+
+<body>
+    <form action="contact.php" method="post">
+        <fieldset>
+            <legend>Registrasi</legend>
+            <p>
+                <label>Nama :</label>
+                <input type="text" name="nama" placeholder="Nama Lengkap..." />
+            </p>
+            <p>
+                <label>Tanggal Lahir :</label>
+                <input type="date" name="tanggal" />
+            </p>
+            <p>
+                <label>Umur</label>
+                <input type="number" min="10" max="90" />
+            </p>
+            <p>
+                <label>Username :</label>
+                <input type="text" name="username" placeholder="Username..." />
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Your email..." />
+            </p>
+            <p>
+                <label>Password :</label>
+                <input type="password" name="password" placeholder="Password..." />
+            </p>
+            <p>
+                <label>Alamat Web :</label>
+                <input type="url" name="name" placeholder="Masukkan URL Web..." />
+            </p>
+            <p>
+                <label>Jenis kelamin :</label>
+                <label><input type="radio" name="jenis_kelamin" value="laki=laki" /></label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan" /></label>
+            </p>
+            <P>
+                <label>Agama :</label>
+                <select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select>
+            </P>
+            <p>
+                <label>Biografi :</label>
+                <textarea name="biografi" </textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Daftar" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
