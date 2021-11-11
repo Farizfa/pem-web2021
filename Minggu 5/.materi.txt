@@ -1,0 +1,18 @@
+Materi minggu ke-5 adalah Elemen Semantik
+
+Elemen Semantik --> menyatakan makna atau tujuan dari elemen itu sendiri
+
+Beberapa contoh Elemen Semantik:
+- <article> : untuk membuat elemen artikel;
+- <aside> : untuk membuat elemen bagian samping;
+- <details> : untuk membuat elemen datail atau spoiler;
+- <figcaption> : untuk membuat teks caption pada figure;
+- <figure> : untuk membuat figur atau gambar pada artikel;
+- <footer> : untuk membuat elemen bagian kaki dari web;
+- <header> : untuk mebuat kepala kop dari web;
+- <main> : untuk membuat elemen utama;
+- <mark> : untuk menandai teks;
+- <nav> : untuk membuat navigasi;
+- <section> : untuk membuat bagian artikel;
+- <summary> : untuk membuat ringkasan artikel atau isi spoiler;
+- <time> :  untuk membuat elemen yang menyatakan waktu;
