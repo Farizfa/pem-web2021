@@ -1,0 +1,1 @@
+Materi pada minggu 6 adalah pembuatan website statis dengan HTML 5 yang mengimplementasikan pembelajaran minggu sebelumnya
