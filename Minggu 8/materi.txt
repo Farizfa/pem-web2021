@@ -1,0 +1,1 @@
+Materi pada minggu 8 mempelajari tentang komponen baru untuk pembuatan layout aplikasi berbasis web dengan menggunakan CSS (Cascade Style Sheet).
