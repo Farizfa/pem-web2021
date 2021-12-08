@@ -1,0 +1,1 @@
+Materi minggu 10 mempelajari tentang  Javascript yang meliputi console javascript, penulisan javascript kedalam HTML, variabel dan tipe data, jendela dialog, serta operator javascript.
