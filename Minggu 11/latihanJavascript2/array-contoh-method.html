@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method Dalam Array</title>
+</head>
+
+<body>
+    <script>
+        // Method Filter
+        const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        // mengambil data yang habis dibagi dua
+        const filterdArray = angka.filter(item => item % 2 === 0);
+        console.log(filterdArray)
+
+        // Method Includes
+        var tanaman = ["Padi", "Kacang", "Jagung", "Kedelai"];
+        // apakah kacang sudah ada di dalam array tanaman?
+        var adakacang = tanaman.includes("Kacang");
+        console.log(adakacang);
+        // apakah ada bayam dalam array?
+        var adabayam = tanaman.includes("Bayam");
+        console.log(adabayam);
+
+        // Method Short
+        var alfabet = ['a', 'r', 'h', 's', 'c', 'q', 'e', 'm', 'z', 'd', ]
+        var number = [1, 5, 7, 0, 6, 4, 8, 2, 9, 3];
+        console.log(alfabet.sort());
+        console.log(number.sort());
+    </script>
+</body>
+
+</html>
