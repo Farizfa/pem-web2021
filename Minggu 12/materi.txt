@@ -1,0 +1,1 @@
+Materi minggu 12 mempelajari tentang  Javascript yang meliputi DOM API Javascript, Fungsi Javascript, dan Objek Javascript.
