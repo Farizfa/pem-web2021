@@ -1,0 +1,198 @@
+body{
+    min-height: 100vh;
+}
+.navbar {
+    box-shadow: 0px 0px 5px #777;
+}
+
+.pulau{
+    margin: 64px 0 0 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pulau a{
+    width: 135px;
+    margin: 0 32px 0 32px;
+}
+
+hr{
+    margin: 32px 0 0 0;
+}
+
+.content-slide{
+    min-width: 100%;
+    position: relative;
+    margin: 0;
+}
+.imgslide{
+    display: none;
+}
+
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    left: -32px;
+    padding: 16px;
+    color: rgb(225, 254, 224);
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    right: -32px;
+    padding: 16px;
+    color: rgb(225, 254, 224);
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.prev:hover, .next:hover{
+    background-color: rgba(225, 225, 225, 0.8);
+    color: rgb(0, 0, 0);
+}
+.text{
+    color: #ffffff;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.animation {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+.content h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 32px 0 0 0;
+}
+.content h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.content img{
+    border: 1.22px solid #C4C4C4;
+    border-radius: 10px;
+    width: 350px;
+    height: 502px;
+    margin: 32px 0 0 0;
+}
+
+
+#gunung{
+    border: 1px solid black;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    width: 232px;
+    height: 274px;
+    margin: 32px 16px 0 16px;
+    padding: 0;    
+}
+#gunung img {
+    width: 230px;
+    height: 194px;
+    border-radius: 10px 10px 0 0;
+}
+#gunung h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 230px;
+    margin: 16px 0 0 0;
+}
+#gunung p{
+    text-align: center;
+    width: 230px;
+    margin:0;
+}
+
+#katalog{
+    width: 150px;
+    margin: 32px 16px 0 16px; 
+    padding: 0;
+}
+#katalog img {
+    width: 150px;
+    border-radius: 10px;
+}
+#katalog h5{
+    width: 150px;
+    margin: 16px 0 6px 0;
+    text-align: center;
+}
+#katalog-view{
+    width: 526px;
+    margin: 32px 0 64px 0;
+}
+.ket-gunung{
+    padding: 0 180px;
+}
+.keterangan{
+    width: 350px;
+    margin: 32px 0 0 0;
+    padding: 15px;
+    border: 1.22px solid #C4C4C4;
+    border-radius: 10px;
+}
+table,
+td,
+th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 320px;
+}
+
+th,
+td {
+    padding: 0;
+    font-size: 18px;
+}
+
+th {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.indikator {
+    width: 150px;
+}
+
+#cuaca{
+    margin: 32px 0 64px 0;
+}
+
+#footer{
+    position: sticky;
+    top: 100%;
+}
+.form-control{
+    border-radius: 10px;
+}

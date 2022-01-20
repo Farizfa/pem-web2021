@@ -1,0 +1,91 @@
+body{
+    min-height: 100vh;
+}
+.navbar {
+    box-shadow: 0px 0px 5px #777;
+}
+
+.katalog-bar{
+    margin: 64px 0 0 0;
+}
+hr{
+    margin: 8px 0 32px 0;
+}
+.short a{
+    width: 140px;
+    margin: 0 6px 0 6px;
+}
+
+.content h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 64px 0 32px 0;
+}
+.dropdown{
+    margin: 64px 0 32px 0;
+}
+
+#product-disc{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 232px;
+    height: 350px;
+    position: relative;
+    margin: 0 16px 32px 16px;
+    padding: 0;   
+}
+#product-disc img {
+    width: 230px;
+    height: 194px;
+    border-radius: 10px 10px 0 0;
+}
+#product-disc h4{
+    margin: 14px 0 10px 10px;
+}
+#product-disc h6{
+    font-size: 17px;
+    margin: 0 0 0 10px;
+}
+#product-disc p{
+    margin: 0;
+    padding: 1px 6px;
+    border-radius: 10px;
+    right: 20px;
+    top: -20px;
+    width: 90px;
+    background-color:rgb(235, 61, 61);
+    color: white;
+}
+.top-right {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+#product{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 232px;
+    height: 330px;
+    margin: 0 16px 32px 16px;
+    padding: 0;   
+}
+#product img {
+    width: 230px;
+    height: 194px;
+    border-radius: 10px 10px 0 0;
+}
+#product h4{
+    margin: 14px 0 10px 10px;
+}
+#product h6{
+    font-size: 17px;
+    margin: 0 0 0 10px;
+}
+
+#footer{
+    position: sticky;
+    top: 100%;
+}
+.form-control{
+    border-radius: 5px;
+}

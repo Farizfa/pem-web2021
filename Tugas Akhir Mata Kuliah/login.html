@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teman Mendaki</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style_login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="row d-flex align-items-center justify-content-around">
+                <div class="col-md-7 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="mb-4">LOGIN</h3>
+                            <form action="">
+                                <div class="form-group mb-3">
+                                    <input class="form-control" type="email" id="email" name="email"
+                                        placeholder="Email">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input class="form-control" type="password" id="password" name="password"
+                                        placeholder="Password">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 text-left">
+                                        <div class="form-group form-check ml-1">
+                                            <input type="checkbox" class="form-check-input" id="autoSizingCheck">
+                                            <label for="autoSizingCheck" class="form-check-label">Remember me</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <a href="">Forgot password?</a>
+                                    </div>
+                                </div>
+                                <div class="form-group my-2 mb-5" onclick="validasi()">
+                                    <a href="" class="btn btn-danger form-control">LOGIN</a>
+                                </div>
+                                <p class="text-center mb-3 text-secondary">Or login with</p>
+                                <div class="row mb-3">
+                                    <div class="form-group col-6">
+                                        <a href=""
+                                            class="btn btn-outline-secondary form-control text-black">Facebook</a>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <a href="" class="btn btn-outline-secondary form-control">Google</a>
+                                    </div>
+                                </div>
+                                <p class="text-center mb-md-0 text-secondary">Not a member?<a href=""> Sign up now</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validasi() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            if (email != "" && password != "") {
+                return true
+            } else {
+                alert("Harap isi data dengan lengkap!")
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
